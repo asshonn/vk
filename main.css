@@ -1,0 +1,236 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1800px;
+	background-color: #34282C;
+}
+.vk{
+	height: 45px;
+	width: 100%;
+	background-color: #3a3b3c;
+	display: flex;
+	align-items: center;
+}
+.vktext{
+	margin: 0 auto;
+	text-align: left;
+	transform: translate(-220%,0);
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+::-webkit-input-placeholder { 
+    color:#3a3b3c;
+}
+.search{
+	border: 1px solid #3a3b3c	;
+	display: inline-flex;
+	margin: 0 auto;
+	padding: 0 20px;
+	justify-content: space-between;
+	transform: translate(-250%,0);
+	overflow: hidden;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #666362;
+
+}
+.but{
+	border: none;
+	background-color: transparent;
+}
+.input{
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #3a3b3c;	 
+}
+.imgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15px;
+	border: none;
+	background-color: transparent;
+}
+p{
+	color: white;
+}
+.prof{
+	padding-left: 27px;
+	cursor: pointer;
+}
+.infoofaibek{
+	padding-left: 50px;
+	padding-right: 20px;
+}
+.icons{
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	font-family: "Maim Hacked";
+}
+.icons p{
+	color:#0AFFFF;
+}
+.icon{
+	padding-right: 5px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+	background-color: #34282C;
+}
+.photos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 270px;
+	height: 350px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	background-color: #3a3b3c;
+	cursor: pointer;
+}
+.my{
+	padding-bottom: 10px;
+	width: 250px;
+	height: 300px;
+	border-radius: 5px;
+}
+.btn {
+	width: 250px;
+	padding: 3px;
+	background-color: #bcc6cc;
+	border: 0;
+	border-color:#3a3b3c ;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.friends{
+	width: 270px;
+	height: 200px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	background-color: #3a3b3c;
+	cursor: pointer;
+}
+.ft{
+	padding-top: 15px;
+	padding-left: 15px;
+	color: #3B9C9C;
+	font-size: 14px;
+
+}
+.card{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.first{
+	display: flex;
+}
+.second{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.names{
+	margin: 0 auto;
+	margin-bottom: 15px;
+	color: #3B9C9C;
+	font-size: 13px;
+}
+.third{
+	width: 650px;
+	background-color:#3a3b3c ;
+	height: 330px;
+	border-radius: 5px;
+
+}
+.sur{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.namsur{
+	margin-top: 10px ;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+.status{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #fdeef4;
+	
+}
+.info p{
+	color:#C0C0C0;
+}
+.online{
+	font-size: 14px;
+}
+h4{
+	color:#728FCE;
+	margin: 0 auto	;
+}
+.thirdplace{
+	display: flex;
+	cursor: pointer;
+}
+.secondplace{
+	display: flex;
+	border-bottom:0.1px solid black;
+	border-top:0.1px solid black;
+	width: 630px;
+	padding-left: 10px;
+}
+.info{
+	padding-right: 70px;
+	font-size: 14px;
+	
+}
+.infoanswer p{
+	font-size: 14px;
+	color:#C9C0BB;
+}
+.thirdplace{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin: 0 auto;
+	transform: translate(0,50%);
+}
+.infothird{
+	margin:0 auto;
+	margin-bottom: 5px;
+	color:#C0C0C0;
+}
+.photoplace{
+	width: 650px;
+	height: 200px;
+	background-color: #3a3b3c;
+	border-radius: 5px;
+}
+.myphoto{
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.mphoto{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.tphoto{
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: #3B9C9C;
+	cursor: pointer;
+}
